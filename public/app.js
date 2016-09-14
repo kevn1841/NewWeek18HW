@@ -15,7 +15,7 @@ $("#factBtn").click(function() {
 });
 
 function checkFact(){
-	if(i == 19){
+	if(i == 26){
 		i = 0;
 	}
 }
