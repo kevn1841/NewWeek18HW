@@ -32,7 +32,7 @@ app.listen(PORT, function(){
 
 
 // var db = mongojs(databaseUrl, collections);
-mongoose.connect('mongodb://heroku_vj83q278:ijiittnvniu7ug748319i57sn2@ds033106.mlab.com:33106/heroku_vj83q278');
+mongoose.connect('mongodb://heroku_lmgwf6mg:2of9j6q0rjtbcpg52b4u2r4rfp@ds033036.mlab.com:33036/heroku_lmgwf6mg');
 
 var db = mongoose.connection;
 
