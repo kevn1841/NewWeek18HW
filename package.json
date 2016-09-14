@@ -1,0 +1,29 @@
+{
+  "name": "neww",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevn1841/All-The-News-That-Fit-to-Scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevn1841/All-The-News-That-Fit-to-Scrape/issues"
+  },
+  "homepage": "https://github.com/kevn1841/All-The-News-That-Fit-to-Scrape#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "http": "0.0.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.6.0",
+    "request": "^2.74.0"
+  }
+}
