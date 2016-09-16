@@ -29,8 +29,6 @@ app.listen(PORT, function(){
 	console.log("App listening on PORT " + PORT);
 });
 
-
-
 // var db = mongojs(databaseUrl, collections);
 mongoose.connect('mongodb://heroku_lmgwf6mg:2of9j6q0rjtbcpg52b4u2r4rfp@ds033036.mlab.com:33036/heroku_lmgwf6mg');
 
@@ -39,9 +37,6 @@ var db = mongoose.connection;
 db.on('error', function(err) {
   console.log('Database Error:', err);
 });
-
-
-
 
 db.once('open', function() {
   console.log('Mongoose connection successful.');
@@ -54,8 +49,6 @@ db.on('error', function(err) {
 app.get('/', function(req, res){
 	res.sendFile('/public/index.html')
 });
-
-
 
 app.get('/scrape', function(req, res) {
 	// first, we grab the body of the html with request
@@ -88,8 +81,7 @@ app.get('/scrape', function(req, res) {
 				    console.log(doc);
 				  }
 				});
-
-
+			
     });
   });
   // tell the browser that we finished scraping the text.

@@ -11,6 +11,7 @@ $("#factBtn").click(function() {
     // append each animal of the named properties to the table
     checkFact();
     $('#fact').html('<h3>'+ data[i].title+ '</h3>');
+    $('#factNumber').html('Fact #: ' + i);
 	});
 });
 
